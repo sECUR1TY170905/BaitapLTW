@@ -1,4 +1,4 @@
-# TinTech — Trang tin công nghệ (Đồ án Lập trình Web)
+# TinTech — Trang tin công nghệ (Bài thực hành Lập trình Web)
 
 Ứng dụng web một trang (SPA) mô phỏng một trang tin công nghệ, xây dựng bằng **React 19**,
 **Vite**, **React Router 7** và **Tailwind CSS 4**.
@@ -106,4 +106,4 @@ src/
 
 ## Tài liệu
 
-Báo cáo đồ án (Word): [`docs/BaoCao.docx`](docs/BaoCao.docx) — 13 trang, các khung nét đứt là chỗ chèn ảnh chụp màn hình.
+Báo cáo bài thực hành (Word): [`docs/BaoCao.docx`](docs/BaoCao.docx) — 9 trang, trình bày theo mẫu báo cáo của Học viện (Times New Roman 14, tiêu đề chương 16 đậm).

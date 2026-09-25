@@ -15,7 +15,7 @@ export default function Footer() {
             </span>
           </div>
           <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-            Trang tin công nghệ và lập trình. Đồ án môn Lập trình Web, xây dựng bằng React, Vite và
+            Trang tin công nghệ và lập trình. Bài thực hành môn Lập trình Web, xây dựng bằng React, Vite và
             Tailwind CSS.
           </p>
         </div>

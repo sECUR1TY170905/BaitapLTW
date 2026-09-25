@@ -5,7 +5,7 @@ import { formatDate, initials } from '../utils/format'
 
 /**
  * Khu vực bình luận của một bài viết.
- * Vì đồ án chưa có máy chủ, bình luận được lưu trong localStorage theo slug
+ * Vì bài thực hành chưa có máy chủ, bình luận được lưu trong localStorage theo slug
  * bài viết. Biểu mẫu có kiểm tra dữ liệu ngay tại giao diện.
  */
 export default function CommentSection({ slug }) {

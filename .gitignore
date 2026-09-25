@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Tài liệu tham khảo cá nhân, không đưa lên kho chung
+docs/B23DCAT231*.docx

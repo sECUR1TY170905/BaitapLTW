@@ -29,7 +29,7 @@ export default function About() {
     <div className="mx-auto max-w-3xl px-4 pt-10">
       <h1 className="mb-4 text-3xl font-extrabold text-slate-900 dark:text-white">Giới thiệu</h1>
       <p className="mb-10 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
-        TinTech là trang tin công nghệ được xây dựng làm đồ án môn Lập trình Web. Mục tiêu của dự án
+        TinTech là trang tin công nghệ được xây dựng làm bài thực hành môn Lập trình Web. Mục tiêu của dự án
         là thực hành đầy đủ các kỹ thuật lập trình giao diện với React: chia nhỏ thành phần, quản lý
         trạng thái, định tuyến và tối ưu trải nghiệm người dùng.
       </p>
