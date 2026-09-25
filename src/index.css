@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Bật dark mode theo class (Tailwind v4) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
+  --color-brand-50:  #eef6ff;
+  --color-brand-100: #d9ebff;
+  --color-brand-200: #bcdcff;
+  --color-brand-300: #8ec6ff;
+  --color-brand-400: #59a6ff;
+  --color-brand-500: #3385fb;
+  --color-brand-600: #1f66f0;
+  --color-brand-700: #1a51dc;
+  --color-brand-800: #1c44b2;
+  --color-brand-900: #1d3d8c;
+}
+
+:root {
+  color-scheme: light;
+}
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+.dark body {
+  @apply bg-slate-950 text-slate-200;
+}
+
+/* Thanh cuộn gọn gàng hơn */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { @apply bg-slate-300 rounded-full; }
+.dark ::-webkit-scrollbar-thumb { @apply bg-slate-700; }
+
+/* Hiệu ứng xuất hiện cho danh sách bài viết */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up { animation: fade-up .35s ease-out both; }
+
+/* Kiểu chữ cho nội dung bài viết */
+.article-body p { @apply mb-5 leading-8 text-slate-700; }
+.dark .article-body p { @apply text-slate-300; }
+.article-body h2 { @apply mt-10 mb-4 text-2xl font-bold text-slate-900; }
+.dark .article-body h2 { @apply text-white; }
+.article-body ul { @apply mb-5 list-disc space-y-2 pl-6 text-slate-700; }
+.dark .article-body ul { @apply text-slate-300; }
+.article-body blockquote { @apply my-6 border-l-4 border-brand-500 bg-brand-50 py-3 pl-5 pr-4 italic text-slate-700; }
+.dark .article-body blockquote { @apply bg-slate-900 text-slate-300; }
