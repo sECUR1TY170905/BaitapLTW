@@ -106,4 +106,4 @@ src/
 
 ## Tài liệu
 
-Báo cáo bài thực hành (Word): [`docs/BaoCao.docx`](docs/BaoCao.docx) — 9 trang, trình bày theo mẫu báo cáo của Học viện (Times New Roman 14, tiêu đề chương 16 đậm).
+Báo cáo bài thực hành được nộp riêng dưới dạng file Word, không kèm trong kho mã nguồn này.
